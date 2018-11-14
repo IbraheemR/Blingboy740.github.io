@@ -3,7 +3,10 @@ function setup() {
 }
 
 function draw() {
-  background(random(0,255), random(0,255), random(0,255));
+  fill(random(0,255),random(0,255),random(0,255));
+  noStroke();
+  textSize(50);
+  text("EDDY AND BOG GAY",(windowWidth/2)-200,windowHeight/2);
 }
 
 function windowResized() {
