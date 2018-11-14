@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background(255,255,100);
+  background(0);
   fill(random(0,255),random(0,255),random(0,255));
   noStroke();
   textSize(windowWidth/10);
