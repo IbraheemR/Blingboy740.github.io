@@ -7,7 +7,7 @@ function draw() {
   fill(random(0,255),random(0,255),random(0,255));
   noStroke();
   textSize(windowWidth/10);
-  text("EDDY AND BOG GAY",(windowWidth/2)-300,windowHeight/2);
+  text("EDDY AND BOG GAY",20,windowHeight/2);
 }
 
 function windowResized() {
