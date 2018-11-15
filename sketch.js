@@ -29,7 +29,7 @@ function windowResized() {
 
 
 function winky() {
-  ellipse(0, 0, random(10,30);)
-  ellipse(0, 20, random(10,30);)
+  ellipse(0, 0, 20)
+  ellipse(0, 20, 20)
   rect(0, 0, 60, 20,50)
 }
