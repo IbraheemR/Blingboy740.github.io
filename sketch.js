@@ -1,4 +1,4 @@
-var x = random(10,30);
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -29,7 +29,7 @@ function windowResized() {
 
 
 function winky() {
-  ellipse(0, 0, x)
-  ellipse(0, 20, x)
+  ellipse(0, 0, random(10,30);)
+  ellipse(0, 20, random(10,30);)
   rect(0, 0, 60, 20,50)
 }
