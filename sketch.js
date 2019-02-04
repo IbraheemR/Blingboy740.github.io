@@ -4,12 +4,12 @@ let s = 1;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(255, 200, 50);
+  background(0);
 }
 
 function draw() {
   fill(0);
-  stroke(0);
+  stroke(255);
   strokeWeight(1);
   textSize(25);
   text("Press 'k' to clear canvas",10,20);
@@ -45,14 +45,14 @@ function mouseReleased() {
 
 function keyPressed() {
   if (keyCode == 75) {
-    background(200, 255, 50);
+    background(255);
     points = [];
 
   }
 }
 function keyReleased() {
   if (keyCode == 75) {
-    background(255, 200, 50)
+    background(0)
     points = [];
     fill(0);
     stroke(0);
