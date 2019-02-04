@@ -45,7 +45,7 @@ function mouseReleased() {
 
 function keyPressed() {
   if (keyCode == 75) {
-    background(255);
+    background(200,255,50);
     points = [];
 
   }
@@ -65,7 +65,7 @@ function keyReleased() {
 
 function windowResized(){
   resizeCanvas(windowWidth,windowHeight);
-  background(0);
+  background(255,200,50);
   fill(0);
   stroke(0);
   strokeWeight(1);
