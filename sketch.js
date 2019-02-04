@@ -65,7 +65,7 @@ function keyReleased() {
 
 function windowResized(){
   resizeCanvas(windowWidth,windowHeight);
-  background(255,200,50);
+  background(0);
   fill(0);
   stroke(0);
   strokeWeight(1);
